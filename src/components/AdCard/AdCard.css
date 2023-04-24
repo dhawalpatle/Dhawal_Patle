@@ -1,0 +1,67 @@
+.ad-cart {
+    display: flex !important;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    overflow: hidden;
+    transition: box-shadow 0.2s ease-in-out;
+    max-width: 20%;
+    max-height: 25%;
+    height: fit-content;
+    margin: 1% 2%;
+}
+  
+  .ad-cart img {
+    width: 100%;
+    height: fit-content;
+    /* object-fit: cover; */
+  }
+  
+  .ad-cart:hover {
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .ad-cart .ad-card-content {
+    padding: 20px;
+  }
+  
+  .ad-cart .ad-card-content h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .ad-cart .ad-card-content h1 {
+    margin-top: 0;
+    color: #8ec3eb;
+    font-weight: bold;
+  }
+  
+  .ad-cart .ad-card-content .ad-card-primary-text {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .ad-cart .ad-card-content p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .ad-cart .ad-card-content button {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #008cff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .ad-cart .ad-card-content button:hover {
+    background-color: #0072ff;
+  }
+  

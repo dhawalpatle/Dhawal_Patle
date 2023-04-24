@@ -1,0 +1,21 @@
+
+  .company-ads {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .company-ads h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .ads-lists {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    flex-direction: row;
+    align-items: top;
+    margin-bottom: 20px;
+  }
